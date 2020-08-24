@@ -127,7 +127,7 @@ Each node of a list is made up of two items - the data and a reference to the ne
 
 ## Forward list: (Similar to singly linked list)
   * Forward list in STL implements singly linked list. Forward List is preferred over list when only forward traversal is required (same as singly linked list is preferred over doubly linked list) as we can save space. Some example cases are, chaining in hashing, adjacency list representation of graph, etc.
-  * ### Functions/operations involved in list:
+  * ### Functions/operations involved in forward list:
       * assign() :- This function is used to assign values to forward list, its another variant is used to assign repeated elements.
       * push_front() :- This function is used to insert the element at the first position on forward list. The value from this function is copied to the space before first element in the container. The size of forward list increases by 1.
       * emplace_front() :- This function is similar to the previous function but in this no copying operation occurs, the element is created directly at the memory before the first element of the forward list.
